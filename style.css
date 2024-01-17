@@ -1,0 +1,175 @@
+@import url('reset.css');
+
+.container {
+    display: flex;
+    width: 1340px;
+    height: 56px;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    width: 348px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.quadrado {
+    width: 57px;
+    height: 40px;
+    background-color: #f1efef;
+    border: 1px solid #cccccc;
+    background-image: url(assets/images/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.text {
+    width: 870px;
+    padding: 20px 0 18px 0;
+}
+
+.chanelinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+}
+
+.canal-direita {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 520;
+    color: white;
+    background-color: #cc0000;
+    border-color: #cc0000;
+    text-transform: uppercase;
+}
+
+.infos {
+    display: flex;
+    gap: 35px;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 520;
+    font-size: 14px;
+}
+
+.dislike {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 520;
+    font-size: 14px;
+}
+
+.compartilhar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 520;
+    font-size: 14px;
+}
+
+.download {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 520;
+    font-size: 14px;
+}
+
+.text2 {
+    padding: 25px 0 25px 0;
+    width: 620px;
+}
+
+.text3 {
+    width: 620px;
+}
+
+.sidebar {
+    width: 30%;
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.sidebar, .imagem {
+    margin-top: 10px;
+}
+.player {
+    width: 75%;
+    padding: 20px 0 20px 30px;
+}
+
+.container1 { 
+    display: flex;
+    width: 1300px;
+}
+
+.tela img {
+    width: 920px;
+    height: auto;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    gap: 20px;
+
+}
+
+.texto, .p {
+    font-size: 14px;
+    margin-top: 25px;
+    width: 190px;
+}
+
+.texto1 {
+    font-size: 14px;
+    width: 190px; 
+}
+
